@@ -1,3 +1,9 @@
-This repository contains a collection of c programs designed to help benchmark the CPUs of the ODROID XU3 development board.
+This repository contains a collection of c programs designed to help benchmark the CPUs of the ODROID XU3 development board. For complete methodology see http://verboseoutput.wordpress.com/projects/heterogeneous-multi-processing/xu3-processor-bench-marks/
 
+Test1:
+The test1 script runs the largecomp.c program on an A7 core and an A15 core to compare the two. It takes as parameters the two cores that have been isolated from the schedular. The program is run 1000 times on each core and the data is stored in test1big and test1little.
+input files: Test1 largecomp.c
+output files: test1big test1little
+
+Test2:
 
